@@ -18,10 +18,10 @@ const calculatetemp=()=>{
 
     if(valuetemp=='cel'){
         result=celtofah(numbertemp);
-        document.getElementById('resultcontainer').innerHTML =`=${result}°Fahrenheit`;
+        document.getElementById('resultcontainer').innerHTML =`${result}°F`;
     }else{
         result=fahtocel(numbertemp);
-        document.getElementById('resultcontainer').innerHTML =`=${result}°Celsius`;
+        document.getElementById('resultcontainer').innerHTML =`${result}°C`;
     }
 
     
